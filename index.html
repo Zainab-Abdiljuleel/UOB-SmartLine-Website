@@ -10,9 +10,12 @@
 
 <header class="navbar">
   <div class="brand">
-    <div class="logo-icon">◇</div>
-    <h2>UOB <span>SmartLine</span></h2>
-  </div>
+  <img src="images/86d15abb-f2c6-47e3-8201-83d57b643b1e.png" alt="SmartLine Icon" class="brand-icon">
+
+  <h2 class="brand-text">
+    <span class="smart-blue">Smart</span><span class="smart-gold">Line</span>
+  </h2>
+</div>
 
   <nav>
     <a href="#abstract">Abstract</a>
@@ -28,7 +31,7 @@
 <section class="hero">
   <div class="hero-left">
     <div class="uob-row">
-      <div class="uob-logo">UOB</div>
+      <img src="images/ChatGPT Image May 11, 2026 at 02_14_15 AM.png" alt="University of Bahrain Logo" class="uob-logo">
       <div>
         <h3>University of Bahrain</h3>
         <p>College of Information Technology<br>Department of Software Engineering</p>
@@ -114,12 +117,8 @@
 
   <div class="wide-card">
     <p>
-      UOB SmartLine is a digital queue management system designed to reduce long waiting lines
-      at university service offices. The system allows students to book tickets remotely, track
-      their queue in real time, view estimated waiting time, and receive notifications when their
-      turn is near. This improves the student experience and helps staff manage crowds more
-      efficiently, resulting in smoother and more organized service operations.
-    </p>
+  UOB SmartLine is a mobile queue management system designed for the registration office at the University of Bahrain. It aims to reduce waiting times and overcrowding during busy registration periods. The system allows students to book digital tickets remotely, check their queue position, view estimated waiting time, and receive alerts when their turn is near. It also includes a machine learning waiting time model using Random Forest, GPS-based alerts, and staff tools for managing queues more efficiently.
+</p>
   </div>
 </section>
 
@@ -130,12 +129,12 @@
   </div>
 
   <div class="objectives-grid">
-    <div>Reduce physical waiting lines.</div>
-    <div>Allow students to get digital tickets remotely.</div>
-    <div>Provide real-time queue position and ETA.</div>
-    <div>Notify students when their turn is near.</div>
-    <div>Help staff manage queues efficiently.</div>
-    <div>Improve the overall student service experience.</div>
+    <div>Reduce physical waiting lines and overcrowding.</div>
+<div>Allow students to book digital tickets remotely.</div>
+<div>Provide real-time queue position and estimated waiting time.</div>
+<div>Notify students when their turn is near.</div>
+<div>Help staff manage tickets and queues efficiently.</div>
+<div>Improve the overall student service experience.</div>
   </div>
 </section>
 
@@ -148,11 +147,13 @@
   <div class="two-column">
     <div class="wide-card">
       <h3>Development Approach</h3>
-      <p>
-        The project follows a structured development process starting from requirements gathering,
-        system analysis, design, implementation, and testing. The system includes student services,
-        ticket management, queue tracking, notifications, FAQ, and staff dashboard modules.
-      </p>
+   <p>
+  UOB SmartLine was developed using a structured software engineering approach including requirements analysis, system design, implementation, and testing. The system provides digital ticket booking, queue tracking, notifications, FAQ services, and staff queue management tools.
+</p>
+
+<p>
+  A machine learning model was integrated to estimate waiting time based on queue conditions and service data. The system was implemented using Flutter, Spring Boot, MySQL, and Firebase Cloud Messaging, followed by functional and usability testing to evaluate performance and user experience.
+</p>
     </div>
 
     <div class="steps-card">
@@ -171,57 +172,78 @@
   </div>
 
   <div class="tech-grid">
-    <div><strong>Frontend</strong><p>HTML, CSS, JavaScript</p></div>
-    <div><strong>Backend</strong><p>PHP / Node.js</p></div>
-    <div><strong>Database</strong><p>MySQL</p></div>
-    <div><strong>AI / ML</strong><p>Waiting time estimation</p></div>
-    <div><strong>Design</strong><p>Figma</p></div>
-    <div><strong>Hosting</strong><p>GitHub Pages</p></div>
-  </div>
+  <div><strong>Flutter</strong><p>Mobile application development for Android devices.</p></div>
+  <div><strong>Spring Boot</strong><p>Backend framework used for API and system logic.</p></div>
+  <div><strong>MySQL</strong><p>Database management and data storage.</p></div>
+  <div><strong>Firebase Cloud Messaging (FCM)</strong><p>Push notifications and queue alerts.</p></div>
+  <div><strong>Python (scikit-learn)</strong><p>Queue waiting time prediction model.</p></div>
+  <div><strong>REST API</strong><p>Communication between frontend and backend services.</p></div>
+</div>
 </section>
 
 <section id="results" class="section">
-  <div class="section-title">
-    <span>05</span>
-    <h2>Results</h2>
+  <div class="results-card">
+
+  <div class="result-item">
+    <img src="images/WhatsApp Image 2026-05-11 at 1.52.24 AM.jpeg" alt="Student Dashboard">
+
+    <h4>Student Dashboard</h4>
+    <p>Book tickets and track queue status.</p>
   </div>
 
-  <div class="results-card">
-    <div class="result-item">
-      <div class="img-placeholder">Screenshot</div>
-      <h4>Student Dashboard</h4>
-      <p>Book tickets and track queue status.</p>
-    </div>
-    <div class="result-item">
-      <div class="img-placeholder">Screenshot</div>
-      <h4>My Tickets</h4>
-      <p>View active ticket information.</p>
-    </div>
-    <div class="result-item">
-      <div class="img-placeholder">Screenshot</div>
-      <h4>FAQ</h4>
-      <p>Answers to common questions.</p>
-    </div>
-    <div class="result-item">
-      <div class="img-placeholder">Graph</div>
-      <h4>Survey Results</h4>
-      <p>Visual evidence from student feedback.</p>
-    </div>
+  <div class="result-item">
+    <img src="images/WhatsApp Image 2026-05-11 at 1.52.24 AM-2.jpeg" alt="My Tickets">
+
+    <h4>My Tickets</h4>
+    <p>View active ticket information.</p>
   </div>
+
+  <div class="result-item">
+    <img src="images/WhatsApp Image 2026-05-11 at 1.52.25 AM.jpeg" alt="FAQ">
+
+    <h4>FAQ</h4>
+    <p>Answers to common questions.</p>
+  </div>
+
+</div>
 </section>
 
 <section id="demo" class="section soft-bg">
+
   <div class="section-title">
     <span>06</span>
     <h2>Demo</h2>
   </div>
 
-  <div class="demo-card">
-    <p>Elevator Pitch Video (1–3 min)</p>
-    <p>Optional screenshots or GIF walkthroughs</p>
-    <p>Optional live demo link if deployed</p>
-    <a class="btn gold" href="#">Watch Demo Video</a>
+  <div class="demo-container">
+
+    <div class="demo-text">
+      <h3>Elevator Pitch Video</h3>
+
+      <p>
+        This short demonstration presents the main features of UOB SmartLine,
+        including digital ticket booking, queue tracking, notifications,
+        waiting time estimation, and staff queue management.
+      </p>
+
+      <ul>
+        <li>Student mobile interface</li>
+        <li>Queue booking and tracking</li>
+        <li>Real-time notifications</li>
+        <li>Staff queue management tools</li>
+      </ul>
+    </div>
+
+    <div class="video-card">
+
+      <video controls>
+        <source src="videos/elvator_pitch.mp4" type="video/mp4">
+      </video>
+
+    </div>
+
   </div>
+
 </section>
 
 <section class="section">
@@ -232,10 +254,12 @@
 
   <div class="wide-card">
     <p>
-      UOB SmartLine helps make university queue management more organized, transparent, and
-      convenient. Future improvements may include better AI-based waiting time prediction,
-      a mobile application version, integration with UOB systems, and advanced analytics for admins.
-    </p>
+  UOB SmartLine successfully improved queue organization by providing a smart digital queue management system for UOB registration services. The system supports digital ticket booking, real-time queue tracking, estimated waiting time prediction, notifications, and staff queue management. Overall, it helps reduce waiting time, improve service flow, and create a more convenient experience for both students and staff.
+</p>
+
+<p>
+  Future work includes deploying the system to the cloud, improving the AI waiting time prediction model using real operational data, developing a web-based staff portal, and adding advanced analytics to support better decision-making.
+</p>
   </div>
 </section>
 
@@ -246,21 +270,46 @@
   </div>
 
   <div class="team-card">
-    <p>
-      This project is a Final Year Senior Project completed during Semester 1 of the Academic
-      Year 2025/2026 at the College of Information Technology — University of Bahrain.
-    </p>
+  <p class="project-note">
+    This project is a Final Year Senior Project completed during Semester 1 of the Academic Year 2025/2026 at the College of Information Technology — University of Bahrain.
+  </p>
 
-    <div class="team-grid">
-      <div>
-        <h4>Student Information</h4>
-        <p>Name | Major | Email | LinkedIn | GitHub</p>
-      </div>
-      <div>
-        <h4>Supervisor</h4>
-        <p>Name | Rank | Email</p>
+  <div class="team-layout">
+    <div class="students-area">
+      <h3>Student Team</h3>
+
+      <div class="student-cards">
+        <div class="person-card">
+          <h4>Zainab Abdiljuleel</h4>
+          <p>Software Engineering Student</p>
+          <p>zonami926@gmail.com</p>
+          <a href="cv/zainab-cv.pdf" target="_blank" class="cv-btn">View CV</a>
+        </div>
+
+        <div class="person-card">
+          <h4>Bushra Husain Habib</h4>
+          <p>Software Engineering Student</p>
+          <p>bushrahussain348@gmail.com</p>
+          <a href="cv/bushra-cv.pdf" target="_blank" class="cv-btn">View CV</a>
+        </div>
+
+        <div class="person-card">
+          <h4>Fatima Yusuf</h4>
+          <p>Software Engineering Student</p>
+          <p>fatima19sayed@gmail.com</p>
+          <a href="cv/fatima-cv.pdf" target="_blank" class="cv-btn">View CV</a>
+        </div>
       </div>
     </div>
+
+    <div class="supervisor-card">
+      <span>Supervisor</span>
+      <h3>Dr. Fawzi Albalooshi</h3>
+      <p>Assistant Professor</p>
+      <p>University of Bahrain</p>
+    </div>
+  </div>
+</div>
   </div>
 </section>
 

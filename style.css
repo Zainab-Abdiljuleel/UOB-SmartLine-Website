@@ -15,9 +15,10 @@ body {
 }
 
 .navbar {
-  background: #071b36;
+  background: rgba(7, 27, 54, 0.96);
+backdrop-filter: blur(10px);
   color: white;
-  padding: 18px 7%;
+  padding: 10px 7%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -30,17 +31,29 @@ body {
 .brand {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 2px;
 }
 
-.logo-icon {
-  width: 38px;
-  height: 38px;
-  border: 2px solid #d6a32f;
+.brand-icon {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+
+  margin-right: 8px;
+}
+
+.brand-text {
+  font-size: 42px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.smart-blue {
+  color: #ffffff;
+}
+
+.smart-gold {
   color: #d6a32f;
-  display: grid;
-  place-items: center;
-  border-radius: 10px;
 }
 
 .brand h2 {
@@ -88,15 +101,9 @@ nav a {
 }
 
 .uob-logo {
-  width: 82px;
-  height: 82px;
-  background: white;
-  color: #071b36;
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  font-weight: 900;
-  border: 4px solid #d6a32f;
+  width: 210px;
+  height: 210px;
+  object-fit: contain;
 }
 
 .uob-row h3 {
@@ -413,28 +420,29 @@ nav a {
 .results-card {
   background: white;
   border-radius: 24px;
-  padding: 35px;
-  max-width: 1100px;
+  padding: 50px;
+  max-width: 1300px;
   margin: auto;
   box-shadow: 0 14px 40px rgba(18, 30, 50, 0.09);
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
 }
 
 .result-item {
   text-align: center;
 }
 
-.img-placeholder {
-  height: 180px;
-  background: linear-gradient(135deg, #eef2f7, #ffffff);
-  border: 1px solid #dbe1ea;
+.result-item img {
+  width: 100%;
+  height: 520px;
+  object-fit: contain;
+  object-position: center;
+  background: #f8fafc;
   border-radius: 18px;
-  display: grid;
-  place-items: center;
-  color: #8a94a6;
-  margin-bottom: 16px;
+  border: 1px solid #dbe1ea;
+  margin-bottom: 18px;
+  box-shadow: 0 10px 28px rgba(18, 30, 50, 0.08);
 }
 
 .result-item h4 {
@@ -493,6 +501,158 @@ footer {
   padding: 28px;
 }
 
+.demo-container {
+  max-width: 1200px;
+
+  margin: auto;
+
+  display: grid;
+
+  grid-template-columns: 0.9fr 1.1fr;
+
+  gap: 40px;
+
+  align-items: center;
+}
+
+.demo-text h3 {
+  font-size: 34px;
+
+  color: #071b36;
+
+  margin-bottom: 18px;
+}
+
+.demo-text p {
+  color: #5f6b7a;
+
+  line-height: 1.9;
+
+  margin-bottom: 20px;
+
+  font-size: 17px;
+}
+
+.demo-text ul {
+  padding-left: 20px;
+
+  color: #071b36;
+
+  line-height: 2;
+}
+
+.video-card {
+  background: white;
+
+  padding: 20px;
+
+  border-radius: 24px;
+
+  box-shadow: 0 14px 40px rgba(18, 30, 50, 0.09);
+}
+
+.video-card video {
+  width: 100%;
+
+  border-radius: 18px;
+
+  display: block;
+}
+
+.cv-btn {
+  display: inline-block;
+
+  margin-top: 14px;
+
+  background: #d6a32f;
+
+  color: white;
+
+  text-decoration: none;
+
+  padding: 10px 18px;
+
+  border-radius: 10px;
+
+  font-weight: 600;
+
+  transition: 0.3s;
+}
+
+.cv-btn:hover {
+  background: #bb8d22;
+
+  transform: translateY(-2px);
+}
+
+.project-note {
+  max-width: 1100px;
+  margin-bottom: 36px;
+}
+
+.team-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.students-area h3 {
+  color: #071b36;
+  font-size: 28px;
+  margin-bottom: 22px;
+}
+
+.student-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.person-card,
+.supervisor-card {
+  background: #f4f6f9;
+  border-radius: 22px;
+  padding: 26px;
+  border: 1px solid #e3e7ee;
+}
+
+.person-card h4,
+.supervisor-card h3 {
+  color: #071b36;
+  margin-bottom: 10px;
+}
+
+.person-card p,
+.supervisor-card p {
+  color: #5f6b7a;
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+.supervisor-card {
+  background: #071b36;
+
+  color: white;
+
+  border-radius: 22px;
+
+  padding: 30px;
+
+  border: 1px solid rgba(255,255,255,0.08);
+
+  max-width: 500px;
+}
+
+.supervisor-card span {
+  color: #d6a32f;
+  font-weight: 800;
+}
+
+.supervisor-card h3,
+.supervisor-card p {
+  color: white;
+}
+
 /* Mobile */
 @media (max-width: 950px) {
   .navbar {
@@ -530,4 +690,28 @@ footer {
   .phone {
     display: none;
   }
+
+  .brand-text {
+    font-size: 38px;
+  }
+
+  .brand-icon {
+    width: 54px;
+    height: 54px;
+  }
+
+  .uob-logo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .demo-container {
+  grid-template-columns: 1fr;
+}
+
+.team-layout,
+  .student-cards {
+    grid-template-columns: 1fr;
+  }
+
 }
