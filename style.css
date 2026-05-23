@@ -653,6 +653,68 @@ footer {
   color: white;
 }
 
+.contact-card {
+  background: white;
+  border-radius: 24px;
+  padding: 48px;
+  max-width: 750px;
+  margin: auto;
+  box-shadow: 0 14px 40px rgba(18, 30, 50, 0.09);
+  border: 1px solid #e3e7ee;
+  border-left: 5px solid #d6a32f;
+}
+
+.contact-intro {
+  color: #4b5563;
+  line-height: 1.9;
+  font-size: 17px;
+  margin-bottom: 32px;
+}
+
+.contact-email-box {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background: #f4f6f9;
+  border-radius: 16px;
+  padding: 28px 32px;
+  border: 1px solid #e3e7ee;
+}
+
+.contact-icon {
+  font-size: 42px;
+  flex-shrink: 0;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.contact-details h4 {
+  color: #071b36;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.contact-details a {
+  color: #d6a32f;
+  font-weight: 700;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+.contact-details p {
+  color: #667085;
+  font-size: 14px;
+  margin: 0;
+}
+
 /* Mobile */
 @media (max-width: 950px) {
   .navbar {
