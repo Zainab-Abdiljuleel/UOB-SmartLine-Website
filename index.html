@@ -63,6 +63,18 @@
   font-size: 14px;
   margin: 0;
 }
+
+.steps-card div strong {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.steps-card div p {
+  color: #a0aec0;
+  font-size: 13px;
+  margin: 0;
+  font-weight: normal;
+}
 </style>
 </head>
 <body>
@@ -207,20 +219,31 @@
   <div class="two-column">
     <div class="wide-card">
       <h3>Development Approach</h3>
-   <p>
-  UOB SmartLine was developed using a structured software engineering approach including requirements analysis, system design, implementation, and testing. The system provides digital ticket booking, queue tracking, notifications, FAQ services, and staff queue management tools.
-</p>
-
-<p>
-  A machine learning model was integrated to estimate waiting time based on queue conditions and service data. The system was implemented using Flutter, Spring Boot, MySQL, and Firebase Cloud Messaging, followed by functional and usability testing to evaluate performance and user experience.
-</p>
+      <p>
+        UOB SmartLine was developed using a structured software engineering approach including requirements analysis, system design, implementation, and testing. The system provides digital ticket booking, queue tracking, notifications, FAQ services, and staff queue management tools.
+      </p>
+      <p>
+        A machine learning model was integrated to estimate waiting time based on queue conditions and service data. The system was implemented using Flutter, Spring Boot, MySQL, and Firebase Cloud Messaging, followed by functional and usability testing to evaluate performance and user experience.
+      </p>
     </div>
 
     <div class="steps-card">
-      <div>Requirements Analysis</div>
-      <div>System Design</div>
-      <div>Implementation</div>
-      <div>Testing & Evaluation</div>
+      <div>
+        <strong>Requirements Analysis</strong>
+        <p>Defined system needs based on student and staff requirements.</p>
+      </div>
+      <div>
+        <strong>System Design</strong>
+        <p>Designed the architecture, database, and user interface.</p>
+      </div>
+      <div>
+        <strong>Implementation</strong>
+        <p>Built using Flutter, Spring Boot, MySQL, and Firebase.</p>
+      </div>
+      <div>
+        <strong>Testing & Evaluation</strong>
+        <p>Verified features through functional and usability testing.</p>
+      </div>
     </div>
   </div>
 </section>
