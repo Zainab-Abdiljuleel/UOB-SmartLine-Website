@@ -75,6 +75,37 @@
   margin: 0;
   font-weight: normal;
 }
+
+.results-wrapper {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.results-full-img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 14px 40px rgba(18, 30, 50, 0.12);
+}
+
+.results-labels {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 28px;
+  text-align: center;
+}
+
+.results-labels h4 {
+  color: #071b36;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.results-labels p {
+  color: #667085;
+  font-size: 14px;
+}
 </style>
 </head>
 <body>
@@ -265,30 +296,29 @@
 </section>
 
 <section id="results" class="section">
-  <div class="results-card">
-
-  <div class="result-item">
-    <img src="images/WhatsApp Image 2026-05-11 at 1.52.24 AM.jpeg" alt="Student Dashboard">
-
-    <h4>Student Dashboard</h4>
-    <p>Book tickets and track queue status.</p>
+  <div class="section-title">
+    <span>05</span>
+    <h2>Application Screenshots</h2>
   </div>
 
-  <div class="result-item">
-    <img src="images/WhatsApp Image 2026-05-11 at 1.52.24 AM-2.jpeg" alt="My Tickets">
+  <div class="results-wrapper">
+    <img src="images/WhatsApp Image 2026-05-23 at 3.30.59 PM-2.jpeg" alt="App Screenshots" class="results-full-img">
 
-    <h4>My Tickets</h4>
-    <p>View active ticket information.</p>
+    <div class="results-labels">
+      <div>
+        <h4>Login Screen</h4>
+        <p>Student and staff login interface.</p>
+      </div>
+      <div>
+        <h4>Student Dashboard</h4>
+        <p>Book tickets and track queue status.</p>
+      </div>
+      <div>
+        <h4>My Tickets</h4>
+        <p>View active ticket and GPS notification.</p>
+      </div>
+    </div>
   </div>
-
-  <div class="result-item">
-    <img src="images/WhatsApp Image 2026-05-11 at 1.52.25 AM.jpeg" alt="FAQ">
-
-    <h4>FAQ</h4>
-    <p>Answers to common questions.</p>
-  </div>
-
-</div>
 </section>
 
 <section id="demo" class="section soft-bg">
